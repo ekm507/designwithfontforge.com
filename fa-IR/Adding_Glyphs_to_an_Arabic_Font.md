@@ -40,49 +40,46 @@ title: افزودن گلیف به یک قلم عربی
 
 اکنون پس از این تغییر اسم‌ها قلم شما به‌عنوان یک قلم جدید شناسایی می‌شود و در کنار قلم اصلی قابل‌نصب خواهد بود.
 
-در همین زبانه هم می‌توانید به اسم خودتان به‌عنوان اضافه کنندهٔ گلیف‌های جدید اشاره کنید.
-
-If desired, you can place an 'Additional glyphs added by' message after the text already in the entry for *Designer*.
+در همین زبانه هم می‌توانید به اسم خودتان به‌عنوان اضافه کنندهٔ گلیف‌های جدید اشاره کنید. با چیزی مثل جملهٔ Additional glyphs added by در بخش Designer.
 
 دکمهٔ  **OK** را برای ذخیرهٔ تغییرات فشار دهید. یک پیام مبنی بر ساخت یک شناسهٔ یکتای جدید دریافت خواهید کرد. روی دکمهٔ  **Change** کلیک کنید.
 
-## افزودن گلیف برای شکل مستقل *پ* 
+## افزودن گلیف برای شکل مستقل *پ*
 
-Go to the Arabic section of the font chart: select **View &mdash; Go to**, click the dropdown box and select **Arabic**, then click **OK**.
+در چارت قلم به بخش عربی بروید. برای این کار می‌توانید گزینهٔ **View &mdash; Go to** را انتخاب کنید و پس از انتخاب **Arabic** از منوی کشویی، روی **OK** بزنید.
 
-Clicking on a cell in the font chart will show its Unicode number and name in blue at the top of the panel. Go to position 1662 , which will show in blue as *1662 (0x67e) U+067E "uni067E" ARABIC LETTER PEH*. The cell below the reference glyph contains a grey X, showing that the font does not include this glyph.
+با کلیک کردن روی یک سلول در چارت قلم کد یونیکد آن به همراه اسمش در پنل بالا به رنگ آبی نمایش داده می‌شود. به سلول با کد ۱۶۶۲ یعنی حرف پ بروید. خواهید دید که در بالا عبارت 1662 (0x67e) U+067E "uni067E" ARABIC LETTER PEH* دیده می‌شود. روی سلول به‌جای یک شکل گلیف یک ضربدر خاکستری دیده می‌شود که یعنی این سلول فاقد گلیف است.
 
 <img src="images/peh_blank.png" />
 
-We will make *peh* by copying *beh* (U+0628) and swapping its single dot for three dots.
+قرار است با کپی کردن *ب* و تغییر نقطهٔ آن از نقطهٔ تکی به نقطهٔ سه‌تایی حرف *پ* را بسازیم.
 
-Click on the *beh* cell (position 1576), then right-click and select **Copy**. Then right-click on the *peh* cell and select **Paste**. Now that *beh* is now copied into the *peh* cell, the next thing is to change the dot.
+روی سلول *ب* (با کد ۱۵۷۶) کلیک کنید. سپس راست‌کلیک کرده و گزینهٔ **copy** را انتخاب کنید. سپس روی سلول *پ* راست‌کلید کرده و گزینهٔ **Paste** را انتخاب کنید. اکنون گلیف *ب* باید در سلول *پ* کپی شده باشد. قدم بعدی تغییر نقطه است.
 
 <img src="images/peh_with_beh.png" />
 
-Find a glyph with three dots &mdash; *sheen* (position 1588, U+0634) will do. Double-click on the cell &mdash; this will open a glyph design panel. Press <kbd>V</kbd> to ensure the pointer tool (arrowhead) in the toolbox is selected, and press <kbd>Z</kbd> and enlarge the panel to give you a good view of the glyph.
+یک گلیف با سه تا نقطه پیدا کنید. برای مثال *شین* (با کد ۱۵۸۸ یا U+0634). بر روی سلول دابل‌کلیک کنید تا پنل طراحی باز شود. کلید <kbd>V</kbd> را فشار دهید تا ابزار اشاره‌گر انتخاب شود. با فشردن کلید <kbd>Z</kbd> هم می‌توانید پنل را بزرگ کنید تا نمای بهتری داشته باشید.
 
-Click and drag so that the nodes of the three dots above sheen change color from pink to beige. If you accidentally include or omit a node, deselect or select it by pressing <kbd>Shift</kbd> and clicking. Press <kbd>Alt</kbd> + <kbd>C</kbd> to copy.
-
+همهٔ گره‌های سه تا نقطه را با کلید کردن و کشیدن ماوس انتخاب کنید. می‌توانید با کمک کلید <kbd>Shift</kbd> نقطه‌های بیشتر یا کمتری را انتخاب کنید. پس از انتخاب با فشردن کلید ترکیبی <kbd>Alt</kbd> + <kbd>C</kbd> شکل را کپی کنید.
 <img src="images/sheen_dots.png" />
 
-Go back to the font chart and double-click on the *peh* cell &mdash; this will load *peh* into another tab in the glyph design panel, alongside the *sheen* tab.
+حال دوباره به چارت قلم برگردید و روی گلیف *پ* دو بار کلیک کنید که پنل طراحی‌اش باز شود و در کنار پنل طراحی *شین* قرار گیرد.
 
-Click and drag to highlight the dot below *peh*, then press <kbd>Delete</kbd>. Press <kbd>Alt</kbd> + <kbd>V</kbd> to paste in the three dots, which will likely appear above the body of *peh*. Leave the dot nodes highlighted so that you can invert and move them more easily.
+با هایلایت کردن نقطهٔ زیر گلیف و فشردن کلید <kbd>Delete</kbd> آن نقطه را پاک کنید و سپس با فشردن کلید ترکیبی <kbd>Alt</kbd> + <kbd>V</kbd> سه تا نقطه‌ای که کپی کرده بودید را در آنجا جایگذاری کنید. این نقطه‌ها احتمالاً در جای درستی نخواهند بود چون در حرف *شین* نقطه‌ها بالای حرف قرار دارند. حال باید این را بچرخانیم و وارونه کنیم تا مناسب سه تا نقطهٔ زیر گلیف باشند.
 
 <img src="images/peh_dots1.png" />
 
-Invert the dots: select the flip tool (two triangles with a red dashed line between them) from the toolbox. (Alternatively, right-click in the middle of the dots, and select **Flip the selection** from the popup.)  Click on one of the dot nodes and drag the mouse slightly left or right.
-
+وارونه کردن نقطه‌ها: ابزار چرخاندن (دو تا مثلث با یک خط‌چین قرمز بینشان) را از جعبهٔ ابزار انتخاب کنید. (همچنین می‌توانید با راست‌کلیک در وسط نقطه‌ها و انتخاب **Flip the selection** این کار را انجام دهید.) روی یکی از گره‌های نقطه‌ها کلیک کنید و ماوس را اندکی به سمت چپ یا راست بکشید.
 <img src="images/peh_dots2.png" />
 
-Move the inverted dots: press <kbd>V</kbd> to select the pointer tool again, click on one of the dot nodes, and drag them down below the body of the glyph. Position them centrally, above the *ArabicBelow* mark.
+حرکت دادن نقطه‌های وارونه شده: کلید <kbd>V</kbd> را بفشارید تا ابزار نشانگر دوباره انتخاب شود. روی یکی از گره‌های مربوط به نقطه‌ها کلیک کنید و آن‌ها را به سمت پایین بدنهٔ گلیف بکشید. جوری که مرکز آن بالای نشانگر *ArabicBelow* قرار گیرد.
 
 <img src="images/peh_dots3.png" />
 
-Close the glyph design panel. There should now be a new glyph for *peh* in the font chart. Save the adapted font (**File > Save**).
+پنل طراحی گلیف را ببندید. اکنون باید بتوانید گلیف جدید *پ* را در چارت قلم ببینید. قلم را ذخیره کنید. (**File > Save**)
 
 <img src="images/peh_new.png" />
+
 
 ## Add the glyphs for the connected forms of *peh*
 
